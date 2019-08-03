@@ -7,7 +7,7 @@ import { Projection } from 'ol/proj';
 
 import * as TileMapInfo from './tiles/TileMapInfo.json';
 
-var tsProjection = new Projection({ // https://stackoverflow.com/questions/47612523/how-to-configure-openlayers-for-a-flat-11-pixel-coordinate-system
+const tsProjection = new Projection({ // https://stackoverflow.com/questions/47612523/how-to-configure-openlayers-for-a-flat-11-pixel-coordinate-system
     code: 'ZOOMIFY',
     units: 'pixels',
     extent: [
@@ -15,7 +15,7 @@ var tsProjection = new Projection({ // https://stackoverflow.com/questions/47612
     ]
 })
 
-var mousePosition = new MousePosition({
+const mousePosition = new MousePosition({
     coordinateFormat: createStringXY(0),
 });
 
