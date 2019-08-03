@@ -5,7 +5,7 @@ import { MousePosition } from 'ol/control';
 import { createStringXY } from 'ol/coordinate';
 import { Projection } from 'ol/proj';
 
-import * as TileMapInfo from './tiles/TileMapInfo.json';
+import * as TileMapInfo from './tiles/TileMapInfo.json'; // This shouldn't be bundled as it won't update without building, but it's just an example project
 
 const tsProjection = new Projection({ // https://stackoverflow.com/questions/47612523/how-to-configure-openlayers-for-a-flat-11-pixel-coordinate-system
     code: 'ZOOMIFY',
