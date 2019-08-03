@@ -1,0 +1,16 @@
+{
+    "name": "ts-tile-map-example",
+    "version": "1.0.0",
+    "main": "main.js",
+    "license": "MIT",
+    "scripts": {
+        "build": "webpack --config ./config/webpack.config.js"
+    },
+    "dependencies": {
+        "ol": "^5.3.3"
+    },
+    "devDependencies": {
+        "webpack": "^4.39.1",
+        "webpack-cli": "^3.3.6"
+    }
+}
